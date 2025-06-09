@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess the Extreme Demon</title>
+  <script defer src="{{ url_for('static', filename='pointercrateguessinggame.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='pointercrateguessinggame.css') }}">
+</head>
+
+<body>
+  <h1>Guess the Geometry Dash Extreme Demon</h1>
+  <h5>(if the video doesn't load, there is a problem with Pointercrate and not the program itself)</h5>
+  <div id="video-container"></div>
+  <div id="guess-section" style="display:none;">
+    <input type="text" id="guessInput" placeholder="Enter your guess..." />
+    <button onclick="checkGuess()">Guess</button>
+    <button onclick="location.reload()">Change Demon</button>
+  </div>
+  <p id="result"></p>
+</body>
+</html>

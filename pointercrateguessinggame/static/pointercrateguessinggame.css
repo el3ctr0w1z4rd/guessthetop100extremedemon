@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 32px;
+    background: #121212;
+    color: #f0f0f0;
+    text-align: center;
+  }
+  input, button {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  iframe {
+    margin-top: 32px;
+    border-radius: 8px;
+  }
